@@ -21,8 +21,8 @@ Enter the replacement:Dan
 """
 people = ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
 
-a = input("Choose a person from the list to replace: ")
-b = input("Enter the replacement: ")
+a = input("Choose a person from the list to replace: ").strip()
+b = input("Enter the replacement: ").strip()
 
 pos = (people.index(a))
 num = people[pos]

@@ -24,11 +24,10 @@ Enter a word: virus
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
 
-a = input("Enter a word: ")
-b = input("Enter a word: ")
-c = input("Enter a word: ")
-d = input("Enter a word: ")
-e = input("Enter a word: ")
+words = []
 
-words = [a, b, c, d, e]
+for i in range(0,5):
+    a = input("Enter a word: ").strip()
+    words.append(a)
+
 print(words)
